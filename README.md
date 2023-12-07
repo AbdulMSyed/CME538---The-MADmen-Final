@@ -1,5 +1,5 @@
 # CME538---The-MADmen-Final
-YouTube Sentiment Analysis Readme File
+YouTube Sentiment Analysis
 
 Overview
 This Python script performs sentiment analysis on YouTube comments related to Formula 1 drivers. It utilizes the YouTube API to gather comments and FastF1 to retrieve information about Formula 1 races. The sentiment analysis is based on a predefined lexicon of words with associated polarities.
@@ -57,3 +57,49 @@ Author
 This script was created by The MADmen. Feel free to contact us for any questions or suggestions.
 
 Refer to the accompanying Medium article for additional insights and guidance on using the script.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Formula 1 Telemetry Analysis
+
+This repository contains Python code for analyzing Formula 1 telemetry data using the FastF1 library. The code explores various aspects such as driver performance, braking points, and final race positions over multiple years.
+
+## Prerequisites
+Ensure you have the following libraries installed:
+- os
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- fastf1
+
+## Getting Started
+1. Import necessary libraries.
+2. Configure the notebook with matplotlib settings and suppress warnings.
+3. Explore telemetry data to understand its structure.
+
+## Analysis Sections
+### Section 1: Throttle Comparison (Qualifying)
+- Retrieve telemetry data for Charles Leclerc and Max Verstappen during the 2023 Mexico Grand Prix Qualifying session.
+- Compare their throttle usage during the first 30 seconds of the session.
+
+### Section 2: Brake Points Comparison (Qualifying vs Race)
+#### Subsection 2.1: Sergio Perez
+- Compare braking points for Sergio Perez during the 2023 Mexico Grand Prix Qualifying session and a practice lap.
+#### Subsection 2.2: Perez vs Leclerc
+- Compare braking points for Sergio Perez and Charles Leclerc during lap 1 of the 2023 Mexico Grand Prix.
+#### Subsection 2.3: Brake Points and Track Overlay (First Turn)
+- Overlay braking points and track positions for Perez and Leclerc during the first turn of lap 1 with an offset.
+
+### Section 3: Brake vs Position (Race)
+- Compare brake usage and positions on track for Sergio Perez and Charles Leclerc during lap 1 of the 2023 Mexico Grand Prix.
+
+### Section 4: Final Positions Analysis (2017-2021)
+- Analyze final race positions for Lewis Hamilton and Valtteri Bottas from 2017 to 2021.
+
+### Section 5: Additional Analysis (Gasly and Albon - 2019-2020)
+- Analyze final race positions for Pierre Gasly and Alexander Albon during 2019 and 2020.
+
+## Conclusion
+This code provides insights into Formula 1 telemetry data, allowing for a detailed analysis of driver performance, braking points, and final race positions.
+
+Feel free to explore and adapt the code for your specific analysis needs.
